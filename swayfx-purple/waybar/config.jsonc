@@ -1,0 +1,40 @@
+{
+    "layer": "top",
+    "margin-top": 6,
+    "margin-left": 10,
+    "margin-right": 10,
+    "margin-bottom": 0,
+    "modules-left": ["river/tags", "sway/workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["network", "custom/separator", "battery"],
+    "battery": {
+        "format": "{capacity}%"
+    },
+    "clock": {
+        "format-alt": "{:%a, %d. %b  %H:%M}"
+    },
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": "{essid}",
+        "format-ethernet": "{ipaddr}/{cidr}",
+        "tooltip-format": "{ifname} {signalStrength}%",
+        "format-linked": "{ifname} (No IP)",
+        "format-disconnected": "⚠",
+        "format-alt": "{essid} {signalStrength}%"
+    },
+    "river/tags": {
+        "num-tags": 5,
+        "tag-labels": [
+            "一",
+            "二",
+            "三",
+            "四",
+            "五"
+        ]
+    },
+    "custom/separator": {
+        "format": "|",
+        "interval": "once",
+        "tooltip": false
+    }
+}

@@ -1,0 +1,65 @@
+* {
+    lightbg: #675887;
+    lightfg: #a683f2; /* highlight color */
+    textclr: #bdafdb;
+
+    background: var(lightbg);
+}
+
+window {
+    font: "EnvyCodeR Nerd Font 15";
+    border-radius: 9px;
+    background-color: rgba(69, 62, 95, 0.9);
+}
+
+listview {
+    border: 0;
+}
+
+entry {
+    placeholder: "";
+    text-color: var(textclr);
+}
+
+prompt {
+    text-color: var(textclr);
+    enabled: false;
+}
+
+textbox-prompt-colon {
+    text-color: var(textclr);
+    str: ">";
+}
+
+num-filtered-rows {
+    text-color: rgba(0,0,0,0);
+}
+
+num-rows {
+    text-color: rgba(0,0,0,0);
+}
+
+scrollbar {
+    handle-color: var(lightbg);
+}
+
+textbox-num-sep {
+    text-color: rgba(0,0,0,0);
+}
+
+entry {
+/*    background-color: var(lightbg);*/
+}
+
+element {
+    border-radius: 4px;
+}
+
+element-text {
+    background-color: var(lightbg);
+    text-color: var(textclr);
+}
+
+element-text selected.normal {
+    text-color: var(lightfg);
+}

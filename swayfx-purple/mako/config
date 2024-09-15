@@ -1,0 +1,7 @@
+max-history=2
+font=EnvyCodeR Nerd Font 10
+background-color=#453e5fe6
+border-color=#685887
+text-color=#bdafdb
+default-timeout=3000
+padding=10,5
